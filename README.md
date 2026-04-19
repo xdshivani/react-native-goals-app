@@ -33,13 +33,13 @@ Built using **React Native (Expo)** with a focus on learning core concepts like 
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home](./HomePage.jpg)
+![Home](./assets/images/HomePage.jpg)
 
 ### ➕ Add Goal (Modal)
-![Add Goal](./AddGoal.jpg)
+![Add Goal](./assets/images/AddGoal.jpg)
 
 ### 🗑️ Delete Goal
-![Delete](./DeleteGoal.jpg)
+![Delete](./assets/images/DeleteGoal.jpg)
 
 ---
 
