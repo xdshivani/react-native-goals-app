@@ -4,7 +4,6 @@ import { View, Text } from "react-native";
 function GoalItem(props) {
   return (
     <Pressable
-      // onPress={props.deleteGoal.bind(this,props.id)}>
       onPress={() => props.deleteGoal(props.id)}
       style={styles.inputText}
     >
@@ -15,7 +14,6 @@ function GoalItem(props) {
   );
 }
 export default GoalItem;
-
 
 const styles = StyleSheet.create({
   inputText: {
