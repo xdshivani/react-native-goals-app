@@ -7,45 +7,51 @@ Built using **React Native (Expo)** with a focus on learning core concepts like 
 
 ## 🚀 Features
 
-- ✅ Add new goals
-- ❌ Prevent empty inputs
-- 🗑️ Delete goals on tap
-- 📋 Optimized list using FlatList
-- 🎯 Modal input for better UX
-- ⌨️ Keyboard handling (auto dismiss)
-- 📱 Cross-platform (Android & iOS)
-- 📱 KeyboardAvoidingView (to avoid UI hiding below keyboard)
+- ✅ Add new goals  
+- ❌ Prevent empty inputs  
+- 🗑️ Delete goals on tap  
+- 📋 Optimized list using FlatList  
+- 🎯 Modal input for better UX  
+- ⌨️ Keyboard handling (auto dismiss)  
+- 📱 Cross-platform (Android & iOS)  
+- 📱 KeyboardAvoidingView (avoids UI overlap with keyboard)  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React Native
-- Expo
-- JavaScript (ES6)
-- Hooks (`useState`)
-- FlatList (for performance)
-- KeyboardAvoidingView
-- Pressable (better than using buttons)
+- React Native  
+- Expo  
+- JavaScript (ES6)  
+- Hooks (`useState`)  
+- FlatList (performance optimization)  
+- KeyboardAvoidingView  
+- Pressable (custom buttons instead of default Button)  
 
 ---
 
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home](./assets/images/HomePage.jpg)
+<p align="center">
+  <img src="./assets/images/HomePage.jpg" width="300" />
+</p>
 
 ### ➕ Add Goal (Modal)
-![Add Goal](./assets/images/AddGoal.jpg)
+<p align="center">
+  <img src="./assets/images/AddGoal.jpg" width="300" />
+</p>
 
 ### 🗑️ Delete Goal
-![Delete](./assets/images/DeleteGoal.jpg)
+<p align="center">
+  <img src="./assets/images/DeleteGoal.jpg" width="300" />
+</p>
 
 ---
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repo
+1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/goals-app.git
