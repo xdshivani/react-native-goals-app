@@ -23,12 +23,6 @@ export default function App() {
     if (!enteredText.trim()) {
       return;
     }
-    // console.log(enteredText)
-    // setGoals([...goals, enteredText]) // not the best way where the current state depends on previous state
-
-    //currentGoals is k/as functional state update
-    // ([...goals, newGoal]) //this can cause bugs
-
     setGoals((currentGoals) => [
       ...currentGoals,
       { text: enteredText, id: Math.random().toString() },
@@ -51,21 +45,11 @@ export default function App() {
       onPress={modalHandler} 
       />
       </View>
-      
       <GoalInput 
       addGoal={addGoalHandler} 
       visible={modalIsVisible} 
       onCancel={endModalHandler}/>
-      {/* <View style={styles.inputContainer}>
-        <TextInput
-          style={styles.textInput}
-          placeholder="Add your goal"
-          onChangeText={goalInputHandler}
-          value={enteredText}
-        />
-        <Button title="Add goal" onPress={addGoalHandler} />
-      </View> */}
-
+    
       <View style={styles.goalsContainer}>
         {/* <ScrollView 
         >

@@ -8,9 +8,6 @@ function GoalInput(props) {
   function goalInputHandler(enteredText) {
     setEnteredText(enteredText);
   }
-
-  // data is sent from parent to child, here we can triggering parent's function with child's data
-
   function goalHandler() {
     props.addGoal(enteredText); //addGoalHandler(entererText)
     setEnteredText("");
@@ -53,9 +50,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor:"blue",
-    // marginBottom: 24,
-    // borderBottomWidth: 1,
-    // borderBottomColor: "#cccccc",
   },
   textInput: {
     borderWidth: 1,
